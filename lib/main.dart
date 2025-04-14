@@ -3,6 +3,7 @@ import '../pages/splash.dart';
 import '../pages/login.dart';
 import '../pages/home.dart';
 import '../pages/otp_screen.dart';
+import 'components/bottom_navbar.dart';
 
 
 void main(){
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => SplashScreen(),
         "/pages/login": (context)=>loginScreen(),
         "/pages/otp": (context)=>OtpScreen(),
-        "/pages/home": (context) => MyHomePage(),
+        "/pages/bottom_navbar": (context) => CustomBottomBar(),
         // "pages/team": (context)=>TeamPage(),
       },
     );

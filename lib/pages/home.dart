@@ -6,7 +6,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PopScope(
-      canPop: false, // Disables all back navigation
+      canPop: true, // on back press exit the app
       child: Scaffold(
         appBar: AppBar(title: const Text('Home Page')),
         body: const Center(child: Text('Welcome to BhojanKart!')),

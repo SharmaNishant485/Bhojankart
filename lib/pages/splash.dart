@@ -25,7 +25,7 @@ class SplashScreen extends StatefulWidget{
     await Future.delayed(const Duration(seconds: 2));
 
     if (isLoggedIn) {
-      Navigator.pushReplacementNamed(context, 'pages/home');
+      Navigator.pushReplacementNamed(context, 'pages/bottom_navbar');
     } else {
       Navigator.pushReplacementNamed(context, 'pages/login');
     }
