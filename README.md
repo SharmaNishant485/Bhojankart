@@ -1,7 +1,6 @@
 # bhojankart
+BhojanKart is a food delivery app that I'am building as a learning project to explore Flutter and improve my mobile app devloopment skills. The concept is based on connecting users with affordable, home-cooked meals from local vendors and tiffin services.
 
-A new Flutter project.
-<p>BhojanKart is a food delivery app that I'am building as a learning project to explore Flutter and improve my mobile app devloopment skills. The concept is based on connecting users with affordable, home-cooked meals from local vendors and tiffin services.</p>
 
 ## Getting Started
 
