@@ -14,3 +14,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<p>BhojanKart is a food delivery app that I'am building as a learning project to explore Flutter and improve my mobile app devloopment skills. The concept is based on connecting users with affordable, home-cooked meals from local vendors and tiffin services.</p>
