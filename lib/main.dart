@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => SplashScreen(),
         "/pages/login": (context)=>loginScreen(),
-        "/pages/otp": (context)=>OtpScreen(),
+        "/pages/otp_screen": (context)=>OtpScreen(),
         "/pages/bottom_navbar": (context) => CustomBottomBar(),
         // "pages/team": (context)=>TeamPage(),
       },
