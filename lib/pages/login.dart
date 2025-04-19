@@ -73,7 +73,7 @@ Widget Body(BuildContext context) {
                       )
                     ),
                     onPressed: (){
-                      Navigator.pushNamed(context, '/pages/otp');
+                      Navigator.pushNamed(context, '/pages/otp_screen');
                       Navigator.push(context, MaterialPageRoute(builder: (context)=> OtpScreen()));
                       },
                        child: Text('Continue',style: TextStyle(color: Colors.white,fontSize: 18),
