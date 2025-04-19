@@ -8,7 +8,7 @@ class OtpScreen extends StatelessWidget {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('isLoggedIn', true);
 
-    Navigator.pushNamedAndRemoveUntil(context, '/pages/home', (route) => false);
+    Navigator.pushNamedAndRemoveUntil(context, '/pages/bottom_navbar', (route) => false);
   }
 
   @override
